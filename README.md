@@ -47,16 +47,16 @@ En liveversion av tjänsten finns tillgänglig på följande URL:
 ## Övrigt
 ### Det finns guider på Internet som förklarar hur du sätter ihop en utvecklingsmiljö baserad på Vuejs, Express, m.m, beroende på OS, etc.
 Denna uppgift är skapad i utbildningssyfte.
-(Jag kan inte ta ansvar över vad du åstadkommer om du försöker att återskapa detta och jag har inte tid/möjlihget med ev. support.)
+(Jag kan inte ta ansvar över vad du åstadkommer om du försöker att återskapa detta och jag har inte tid/möjlighet med ev. support.)
 Samtliga bilder och video följer ej med detta repo.
 
 ## Instruktioner, för att återskapa denna tjänst, klient- och serversidan.
 ### Vue, frontend
-1. Klona detta projekt, från Github.
-2. Gå in i mappen där det klonade projektet återfinns.
-3. Kör kommandot: "npm install" och därefter "npm run dev".
+
+1. Gå in i mappen där det klonade projektet återfinns.
+2. Kör kommandot: "npm install" och därefter "npm run dev".
 Du bör nu kunna starta upp projektet lokalt, http://localhost:5173/. Stäng genom ctrl+c
-Det går att köra "npm run build" för att bygga upp projektet.
+3. Det går att köra "npm run build" för att bygga upp projektet.
 
 ### Express, MongoDB, back-end (server)
 4. Du behöver ha satt upp en databas (MongoDB) som du kan hämta/skicka data mot.
@@ -130,7 +130,7 @@ BSON ObjectId
 [https://netlify.com]
 Plattformen Netlify bör kunna fungera när det gäller front-end (Vue).
 [https://www.heroku.com/], för back-end (Express) samt [https://www.mlabs.io/en] för databasen (MongoDB). 
-Ev. kostnader/avgifter kan förekomma vid användande av ovannämnt.
+Ev. kostnader/avgifter kan förekomma vid användande av dessa.
 
 ## Länk
 En liveversion av webbplatsen finns tillgänglig på följande URL: 
