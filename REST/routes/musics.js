@@ -51,7 +51,7 @@ db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function(callback) {
     // Db-events-lyssnare. 
     //Meddelande vid framgångsrik anslunting.
-    console.log("\nDu är nu ansluten till databasen. :)\n\n http://localhost:3000/ \n")
+    console.log("\nDu är nu ansluten till databasen. :)\n\n http://localhost:3000/ \n\n http://localhost:3000/musics/ \n")
         // Skapar DB-schema
     var musicsSchema = mongoose.Schema({
         name: String,
