@@ -1,0 +1,53 @@
+/*Dt162g,Moment5 - projekt,
+Nils
+
+nibo1005@student.miun.se
+Lite design/style
+*/
+
+
+/*Body-elemtet, mfl. Anger olika property och values.*/
+
+body {
+    font-family: georgia, serif;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    background: -webkit-linear-gradient(rgb(238, 238, 253), rgb(134, 125, 41));
+}
+
+#container {
+    width: 80%;
+    padding: 2em;
+    border-radius: 0.2em;
+    background-color: #fff;
+    margin: 5%;
+    box-shadow: 0px 4px 20px 5px rgba(119, 119, 119, 0.18);
+}
+
+
+/*Rubrik, m.m*/
+
+h1 {
+    color: rgb(19, 49, 2);
+    font-size: 2em;
+    font-style: italic;
+}
+
+
+/* Responsiv design för mobiler och surfplattor, max 800px -------------------------------*/
+
+@media only screen and (max-width: 800px) {
+    #container {
+        width: 90%;
+    }
+}
+
+
+/* Responsiv design för max 500px -------------------------------*/
+
+@media only screen and (max-width: 500px) {
+    #container {
+        width: 80%;
+        margin: 3%;
+    }
+}
